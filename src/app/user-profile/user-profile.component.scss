@@ -1,0 +1,48 @@
+mat-card {
+  max-width: 480px;
+  margin: 32px auto 24px auto;
+  padding: 24px 16px;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(44, 62, 80, 0.10);
+  background: #fff;
+}
+
+mat-card-title {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #3f51b5;
+  margin-bottom: 16px;
+}
+
+mat-form-field {
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+button {
+  margin-right: 8px;
+  margin-bottom: 8px;
+}
+
+.favorite-movies-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.favorite-movie-card {
+  width: 180px;
+  .movie-image {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 8px 8px 0 0;
+    background: #e3eafc;
+  }
+  mat-card-title {
+    font-size: 1rem;
+    color: #3f51b5;
+  }
+}

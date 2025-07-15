@@ -1,0 +1,19 @@
+.main-toolbar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 2px 8px rgba(44, 62, 80, 0.08);
+  .logo {
+    font-weight: 700;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    color: #fff;
+  }
+  .spacer {
+    flex: 1 1 auto;
+  }
+  button {
+    font-weight: 500;
+    margin-left: 8px;
+  }
+}

@@ -1,0 +1,27 @@
+// filepath: c:\Users\tscho\myFlix-Angular-client\src\app\user-login-form\user-login-form.component.scss
+mat-card {
+  max-width: 400px;
+  margin: 48px auto;
+  padding: 24px 16px;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(44, 62, 80, 0.10);
+  background: #fff;
+}
+
+mat-card-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #3f51b5;
+  margin-bottom: 16px;
+}
+
+mat-form-field {
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+mat-card-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+}

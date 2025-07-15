@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
   <mat-card>
     <mat-card-header>
       <mat-card-title>Sign Up!</mat-card-title>
@@ -8,40 +8,40 @@
         <mat-form-field>
           <input
             matInput
-            [(ngModel)]="userData.Username"
+            [(ngModel)]="userData.name"
             placeholder="Username"
             type="text"
-            name="Username"
+            name="name"
             required
           >
           </mat-form-field>
           <mat-form-field>
           <input
             matInput
-            [(ngModel)]="userData.Password"
+            [(ngModel)]="userData.password"
             type = "password"
             placeholder="Password"
-            name="Password"
+            name="password"
             required
           >
         </mat-form-field>
         <mat-form-field>
           <input
             matInput
-            [(ngModel)]="userData.Email"
+            [(ngModel)]="userData.email"
             type = "email"
             placeholder="Email"
-            name="Email"
+            name="email"
             required
           >
         </mat-form-field>
         <mat-form-field>
           <input
             matInput
-            [(ngModel)]="userData.Birthday"
+            [(ngModel)]="userData.birthday"
             type = "date"
             placeholder="Birthday"  
-            name="Birthday"
+            name="birthday"
           >
         </mat-form-field>
       </form>

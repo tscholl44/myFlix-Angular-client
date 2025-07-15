@@ -1,0 +1,16 @@
+// Style for all dialog components
+mat-dialog-content {
+  font-size: 1rem;
+  color: #333;
+  padding-bottom: 16px;
+}
+
+mat-dialog-title {
+  color: #3f51b5;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+button[mat-button] {
+  color: #3f51b5;
+}
